@@ -32,6 +32,25 @@ under the License.
     An archetype which contains a sample Maven project. Customized by xor.
   </description>
 
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>2.0</version>
+      </extension>
+    </extensions>
+
+    <pluginManagement>
+      <plugins>
+	<plugin>
+	  <artifactId>maven-archetype-plugin</artifactId>
+	  <version>2.0</version>
+	</plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
