@@ -20,3 +20,7 @@ Taken from [maven-archetype-quickstart](http://svn.apache.org/viewvc/maven/arche
 
 ## Run all tests
     mvn verify
+
+## Troubleshooting
+### Eclipse does not run newly added integration tests
+Use `Project -> Maven -> Update Project...`
